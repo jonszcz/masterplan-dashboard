@@ -59,6 +59,7 @@ app.layout = html.Div([
                 0.50: '50%'
             }
         )]),
+    html.Br(),
     dcc.Graph(id='parking-demand')
 ])
 
