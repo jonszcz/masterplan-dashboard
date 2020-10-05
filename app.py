@@ -102,4 +102,4 @@ def update_headcount_growth(starting_headcount,annual_growth,parking_range):
     return headcount_fig, parking_fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
